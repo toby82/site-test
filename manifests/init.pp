@@ -41,5 +41,8 @@ class test {
     content	=> "This is test",
     mode	=> 0600,
   }
+  notify {"test":
+    message	=> "this is notify message",
+  }
 
 }
