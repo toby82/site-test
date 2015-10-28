@@ -39,6 +39,7 @@ class test {
   file {"/tmp/tt.txt":
     ensure	=> file,
     content	=> "This is test",
+    mode	=> 0600,
   }
 
 }
